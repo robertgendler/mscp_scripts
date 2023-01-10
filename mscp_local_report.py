@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # description: Point to mSCP Plist Log File to make pretty graph, 
 # required: input file and output file
-# ./mscp_local_report -p /Library/Preferences/org.BASELINE.audit.plist -o ~/prettyoutput.xlsx
+# ./mscp_local_report -p /Library/Preferences/org.BASELINE.audit.plist -o ~/prettyoutput
 
 import argparse
 from openpyxl import Workbook
